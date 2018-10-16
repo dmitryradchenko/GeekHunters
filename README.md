@@ -10,18 +10,14 @@ Using GRS a recruitment agent should be able to:
   - view all candidates
   - filter candidates by technology
 
+This single-page application built with:
 
-Another developer has partially designed and implemented a
-SQLite DB for this project - GeekHunters.sqlite. Feel free to modify a structure to
-your needs.
+- ASP.NET Core 2 and C# for cross-platform server-side code
+- React for client-side code
+- Bootstrap for layout and styling (I didn't focus much on it)
+- localdb for database (you need to run migrations)
+- Entity Framework Core as ORM
+- XUnit for unit tests
+The ClientApp subdirectory is a standard React application based on the create-react-app template.
 
-Please fork the project and commit your source code (please do not archive it :) ).
-
-You are free to use **ANY** .net frameworks you need -
-Console Application / WPF / aspnet. However, if you decide to go with third
-party package manager or dev tool - don't forget to mention them in the
-README.md of your fork.
-
-Good luck!
-
-P.S: And unit tests! We love unit tests!
+Need to have Visual Studio 2017 (version 15.7 or higher) with ASP.NET Core 2.1. To install database is have to do: Update-Database in DAL project
